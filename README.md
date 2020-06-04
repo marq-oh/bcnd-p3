@@ -5,9 +5,9 @@ Third project for Blockchain Developer course, the intent of the project was to 
 
 ## Write-Up / Details
 ### Part 1: Plan the project with write-ups
-TBD
+The main workflow and backend of the application was developed using Smart Contracts (Solidity). The frontend was developed using NodeJs.
 
-Also, see [UML Files](https://github.com/marq-oh/bcnd-p3/tree/master/UML)
+There are a total of 4 roles. The flow of how each role communicates with each other, the properties of each role and the functions that each role performs can be understood through the [UML diagrams](https://github.com/marq-oh/bcnd-p3/tree/master/UML). 
 
 ### Part 2: Write smart contracts
 See [contracts folder](https://github.com/marq-oh/bcnd-p3/tree/master/project-6/contracts)
