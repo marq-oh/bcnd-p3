@@ -16,9 +16,9 @@ There are a total of 4 roles. The flow of how each role communicates with each o
 |DistributionRole.sol|This contract is used to give an address the Distributor role to be able to mark an item as sold and also ship the item   				   |
 |FarmerRole.sol  	 |This contract is used to give an address the Farmer role to harvest, process, pack and sell an item         								   |
 |RetailerRole.sol  	 |This contract is used to give an address the Retailer role to receive an item          													   |
-|Roles.sol  		 |This contract is assign, remove and check roles           																				   |
+|Roles.sol  		 |This contract is used as a library to assign, remove and check roles           																				   |
 |SupplyChain.sol  	 |This contract runs and manages the flow of items through each state (Harvested, Procesed, Packed, ForSale, Sold, Shipped, Received, Purchased|        																|
-|Ownable.sol  		 |This contract manages the ownership of an item as it passes through the supply chain														   | 
+|Ownable.sol  		 |This contract is used as a library to manage the ownership of an item as it passes through the supply chain														   | 
 |Migrations.sol  	 |This contract is used as part of the deployment process using truffle				     													   |  
 
 See [contracts folder](https://github.com/marq-oh/bcnd-p3/tree/master/project-6/contracts) for solidity code
@@ -42,10 +42,10 @@ See [test folder](https://github.com/marq-oh/bcnd-p3/blob/master/project-6/test)
 TBD
 
 ### Part 5: Modify client code to interact with smart contracts
-TBD
+Only minor edits were done from the code that was provided
 
 ### Optional: Implement Infura to store product image
-TBD
+N/A - This option was not done
 
 ### Versions
 |            Item           |               Value              |
@@ -53,6 +53,3 @@ TBD
 |     Node Version   		|             v12.16.1             |
 |      Truffle Version      | v5.1.14-nodeLTS.0 (core: 5.1.13) |
 | Solidity Compiler Version |          0.6.2 (solc-js)         |
-
-## Other Notes
-- TBD
