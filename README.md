@@ -7,7 +7,12 @@ Third project for Blockchain Developer course, the intent of the project was to 
 ### Part 1: Plan the project with write-ups
 The main workflow and backend of the application was developed using Smart Contracts (Solidity). The frontend was developed using NodeJs.
 
-There are a total of 4 roles. The flow of how each role communicates with each other, the properties of each role and the functions that each role performs can be understood through the [UML diagrams](https://github.com/marq-oh/bcnd-p3/tree/master/UML). 
+There are a total of 4 roles. The flow of how each role communicates with each other, the properties of each role and the functions that each role performs can be understood through the [UML diagrams](https://github.com/marq-oh/bcnd-p3/tree/master/UML).
+
+Subcontract inheritance:
+- contract AccessControl
+- contract Base is AccessControl
+- contract Core is Base
 
 ### Part 2: Write smart contracts
 |Contract            |Description              																				   									   |
@@ -39,7 +44,7 @@ Ten (10) unit tests were written:
 See [test folder](https://github.com/marq-oh/bcnd-p3/blob/master/project-6/test)
 
 ### Part 4: Deploy smart contracts on a public test network (Rinkeby)
-Contract address: [0xFb0720c0715e68f80c0c0437C9C491abFed9e7ab](https://rinkeby.etherscan.io/address/0xcE58E564CeeAEA68B68aE388b503f4b3f56E0c2F)
+Contract address: [0xea74Ed4b183fdE4757d6b611c8bB934Dd9e8ABe1](https://rinkeby.etherscan.io/address/0xea74Ed4b183fdE4757d6b611c8bB934Dd9e8ABe1)
 
 See [other folder](https://github.com/marq-oh/bcnd-p3/blob/master/other/rinkeyby%20deployment.txt)
 
