@@ -39,7 +39,7 @@ Ten (10) unit tests were written:
 See [test folder](https://github.com/marq-oh/bcnd-p3/blob/master/project-6/test)
 
 ### Part 4: Deploy smart contracts on a public test network (Rinkeby)
-Contract address: [0xFb0720c0715e68f80c0c0437C9C491abFed9e7ab](https://rinkeby.etherscan.io/address/0xfb0720c0715e68f80c0c0437c9c491abfed9e7ab#code)
+Contract address: [0xFb0720c0715e68f80c0c0437C9C491abFed9e7ab](https://rinkeby.etherscan.io/address/0xcE58E564CeeAEA68B68aE388b503f4b3f56E0c2F)
 
 See [other folder](https://github.com/marq-oh/bcnd-p3/blob/master/other/rinkeyby%20deployment.txt)
 
