@@ -235,3 +235,6 @@ Summary
 =======
 > Total deployments:   6
 > Final cost:          0.03996913 ETH
+
+
+Contract: https://rinkeby.etherscan.io/address/0xcE58E564CeeAEA68B68aE388b503f4b3f56E0c2F
